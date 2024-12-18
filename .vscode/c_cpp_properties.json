@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "${default}",
+            "cppStandard": "c++20",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerArgs": [
+                "-g",
+                "-Os",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-fno-exceptions",
+                "-fno-threadsafe-statics",
+                "-ffunction-sections",
+                "-fdata-sections",
+                "-pipe"
+            ]
+        }
+    ],
+
+    "version": 4
+}
